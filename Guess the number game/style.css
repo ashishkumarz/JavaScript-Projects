@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8FAFC;
+    color: #1E293B;
+
+}
+
+h1 {
+    text-align: center;
+    color: #2563EB;
+}
+
+#descr {
+    color: #64748B;
+}
+
+.box {
+    width: 400px;
+    padding: 2rem;
+    background-color: #FFFFFF;
+    border: 1px solid #CBD5E1;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+}
+
+.input-main {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+
+    background-color: #FFFFFF;
+    border: 2px solid #CBD5E1;
+    color: #1E293B;
+
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2563EB;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+
+}
+
+#guessBtn {
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#guessBtn:hover {
+    background-color: #1D4ED8;
+    
+}
+
+#resetBtn {
+    background-color: #22C55E;
+    color: white;
+    border: none;
+}
+
+#resetBtn:hover {
+    background-color: #16A34A;
+}
+
+.error {
+    color: #EF4444;
+    font-weight: bold;
+}
+.success {
+    color: #22C55E;
+    font-weight: bold;
+
+}
+
+#result ,
+#attempts {
+    color: #64748B;
+    text-align: center;
+}
+
+button{
+    border:none;
+    color:white;
+    padding:10px 18px;
+    border-radius:8px;
+    font-size:15px;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
