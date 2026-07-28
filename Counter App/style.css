@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+    align-items: center;
+}
+
+h3 {
+    align-items: center;
+    color: rgb(205, 35, 35);
+    
+}
+
+#para {
+    color: rgb(0, 60, 255);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.counter {
+    border: 2px solid green;
+    padding: 2rem;
+    border-radius: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.change{
+    display: flex;
+    gap: 20px;
+}
+#incr , #decr {
+    font-size: 1.3rem;
+    height: 45px;
+    width: 45px;
+    background-color: pink;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+#reset {
+    background-color: rgb(78, 143, 170);
+    border-radius: 8px;
+    color: white;
+    padding: 8px 20px;
+    cursor: pointer;
+
+}
+
+button {
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.08);
+    
+}
